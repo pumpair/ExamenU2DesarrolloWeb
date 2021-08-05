@@ -1,0 +1,99 @@
+
+header{
+    width: 100%;
+    height: 700px;
+    padding:250px;
+    text-align: center;
+    background-image: url("/assets/img/header_charcuteria.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.boton_explorar{
+    padding: 40px;
+}
+
+hr {
+    border-top: 5px solid rgba(158, 13, 13, 0.918);
+}
+
+h3{
+    font-family: 'MonteCarlo', cursive;
+    color: white;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    color: rgb(87, 2, 2);
+    font-family: 'MonteCarlo', cursive;
+
+}
+
+h2{
+    color: white;
+
+}
+
+h5{
+    color: white;
+}
+
+#carne{
+
+    height: 100%;
+    width: 80%;
+    border: 5px solid rgb(87, 2, 2);
+}
+
+section.descripcion{   
+    display: flex;
+    flex-direction: row;
+    
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+
+
+
+section.productos{
+    background-color: rgba(87, 2, 2, 0.473);
+    display: flex;
+    flex-direction: row;
+    
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+section.contactos{
+    padding-left: 25%;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: rgb(175, 157, 157);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 2px;
+}
+
+#productos{
+    display: flex;
+    flex-direction: column;
+}
+
+#linea{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
